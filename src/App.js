@@ -4,6 +4,7 @@ import GetStarted from "./Components/GetStarted"
 import './App.css';
 import Products from "./Components/Products"
 import Header from "./Components/Header"
+import HowItWorks from "./Components/HowItWorks"
 function App() {
   return (
     <div className="App" style={{ backgroundColor: "#f8f5f1" }}>
@@ -25,10 +26,10 @@ function App() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel><br /><br /><br /><br />
-      <GetStarted /><br /><br /><br /><br />
+      <GetStarted /><br /><hr /><br /><br /><br />
       <Products /><br /><br /><br /><br />
       <GetStarted />
-
+      <HowItWorks />
     </div>
   );
 }

@@ -10,6 +10,16 @@ function Products() {
       <h1 style={{ textAlign: "center" }}>
         <b>New Launches</b>
       </h1>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+        }}
+      >
+        <button className="product-button">Hair</button>
+        <button className="product-button">Skin</button>
+        <button className="product-button">Weight</button>
+      </div>
       <br />
       <br />
 

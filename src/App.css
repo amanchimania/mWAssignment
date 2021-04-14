@@ -6,3 +6,24 @@
   display: flex;
   justify-content: space-around;
 }
+span {
+  font-size: large;
+}
+.final-box:hover {
+  background-color: rgb(201, 181, 204);
+  transition: background-color 0.5s;
+  text-shadow: black;
+}
+.footer {
+  border-radius: 50%;
+}
+.product-button {
+  color: black;
+  background-color: whitesmoke;
+  border-radius: 10%;
+  width: 120px;
+}
+.product-button:hover {
+  color: whitesmoke;
+  background-color: black;
+}

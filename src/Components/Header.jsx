@@ -22,29 +22,29 @@ function Navbarx() {
         <Navbar.Collapse id="responsive-navbar-nav">
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <Nav className="mr-auto">
-            <Nav.Link href="#features">Shop</Nav.Link>
-            <Nav.Link href="#pricing">Take Self - Assesment</Nav.Link>
+            <Nav.Link>Shop</Nav.Link>
+            <Nav.Link>Take Self - Assesment</Nav.Link>
             <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Hair</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Skin</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Weight</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.4">PCOS</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#features">All Products</Nav.Link>
-            <Nav.Link href="#features">Book Consulation</Nav.Link>
+            <Nav.Link>All Products</Nav.Link>
+            <Nav.Link>Book Consulation</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="#deets">
+            <Nav.Link>
               <IoNotificationsCircleSharp />
             </Nav.Link>
-            <Nav.Link href="#deets">
+            <Nav.Link>
               <SiWhatsapp />
             </Nav.Link>
-            <Nav.Link href="#deets">
+            <Nav.Link>
               <BsSearch />
             </Nav.Link>
 
-            <Nav.Link eventKey={2} href="#memes">
+            <Nav.Link eventKey={2}>
               <FaUserAlt />
             </Nav.Link>
           </Nav>

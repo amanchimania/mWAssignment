@@ -39,16 +39,20 @@ body,
   .product {
     flex-direction: column;
     justify-content: center;
+    width: 12rem;
   }
   .footer {
     flex-direction: column;
     justify-content: center;
   }
 }
-.footer {
-}
+
 span {
   font-size: large;
+}
+.final-box {
+  position: relative;
+  left: 15px;
 }
 .final-box:hover {
   background-color: rgb(201, 181, 204);

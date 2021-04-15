@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="containerrr">
       <Header /><br /><br /><br />
-      <Carousel style={{ width: "100vw" }}>
+      <Carousel style={{ width: "100%" }}>
 
         <Carousel.Item>
           <img

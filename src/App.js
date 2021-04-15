@@ -10,9 +10,9 @@ import Header from "./Components/Header"
 import HowItWorks from "./Components/HowItWorks"
 function App() {
   return (
-    <div className="App" style={{ backgroundColor: "#f8f5f1" }}>
+    <div className="containerrr">
       <Header /><br /><br /><br />
-      <Carousel>
+      <Carousel style={{ width: "100vw" }}>
 
         <Carousel.Item>
           <img
@@ -22,7 +22,7 @@ function App() {
           />
           <Carousel.Caption>
             <div className="primary" style={{ height: "350px", backgroundColor: "white", padding: "10px", borderRadius: "30px" }} >
-              <h1 style={{ color: "black" }}>Heading Title</h1><br />
+              <h1 style={{ color: "black", fontSize: "3rem" }}>Heading Title</h1><br />
               <h6 style={{ color: "black" }}>We are the country's first holistic wellness platform for men. We talk ,listen to them and understand there needs</h6>
               <h4 style={{ color: "black" }}>What's your concern ?</h4><br />
               <div style={{ display: "flex", justifyContent: "space-evenly" }}>
@@ -39,7 +39,7 @@ function App() {
       <Products /><br /><br /><br /><br /><hr />
       <GetStarted /><br /><br /><br />
       <HowItWorks /><br /><br /><br />
-    </div >
+    </div>
   );
 }
 

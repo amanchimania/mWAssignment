@@ -9,7 +9,10 @@ function HowItWorks() {
         <b>How it Works</b>
       </h1>
       <br />
-      <div style={{ display: "flex", justifyContent: "space-evenly" }}>
+      <div
+        className="footer"
+        style={{ display: "flex", justifyContent: "space-evenly" }}
+      >
         <img className="footer" src={Footer}></img>
         <div
           style={{

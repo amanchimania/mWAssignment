@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "react-bootstrap";
 function GetStarted() {
   return (
-    <div style={{ textAlign: "center" }}>
+    <div style={{ textAlign: "center", padding: "5px" }}>
       <h1>
         <b>Not sure where to start? We can help</b>
       </h1>

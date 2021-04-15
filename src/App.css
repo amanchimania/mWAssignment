@@ -1,3 +1,32 @@
+.containerrr {
+  margin: 0;
+
+  width: 100%;
+
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  min-width: 500px;
+  /* width: 100%; */
+}
+/* @media screen and (max-width: 500px) {
+  .containerrr {
+    background-color: red;
+  }
+} */
+
+/* html,
+body,
+.containerrr,
+.containerrr > div {
+  height: 100%;
+} */
+
+@media screen and (min-width: 500) {
+  body {
+    width: 10000px;
+  }
+}
 .primary {
   height: 200px;
 }
@@ -5,6 +34,18 @@
   text-align: center;
   display: flex;
   justify-content: space-around;
+}
+@media screen and (max-width: 800px) {
+  .product {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.footer {
 }
 span {
   font-size: large;

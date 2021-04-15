@@ -7,7 +7,7 @@ import { SiWhatsapp } from "react-icons/si";
 // import { BsSearch } from "react-icons/Bs";
 import { IoNotificationsCircleSharp } from "react-icons/io5";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
-function Navbarx() {
+function Header() {
   return (
     <>
       <Navbar
@@ -16,6 +16,7 @@ function Navbarx() {
         bg="dark"
         variant="dark"
         className="navbar"
+        style={{ width: "100vw !important" }}
       >
         <Navbar.Brand href="#home">Bodywise</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -54,4 +55,4 @@ function Navbarx() {
   );
 }
 
-export default Navbarx;
+export default Header;
